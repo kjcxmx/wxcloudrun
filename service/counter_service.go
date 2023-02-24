@@ -151,7 +151,7 @@ func getAction(r *http.Request) (string, error) {
 
 // getIndex 获取主页
 func getIndex() (string, error) {
-	b, err := ioutil.ReadFile("./index.html")
+	b, err := ioutil.ReadFile("./test.html")
 	if err != nil {
 		return "", err
 	}
